@@ -207,3 +207,51 @@ body{
 .main .service .services .card .text{
     margin-left: 1rem;
 }
+.main .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .footer .pic{
+    width: 70%;
+    height: 60vh;
+    margin: 8rem;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.main .footer .pic img{
+    width: 400px;
+    height: 370px;
+    border-radius: 10px;
+}
+.main .footer .rating{
+    width: 100%;
+    height: 60vh;
+   
+    border-radius: 10px;
+    margin: 8rem;
+}
+.main .footer .rating h5{
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: rgb(186, 196, 248);
+    color: rgb(75, 75, 233);
+    border-radius: 32px;
+    padding: 8px 10px;
+    height: 35px;
+    width: 180px;
+}
+.main .footer .rating h2{
+    height: 10vh;
+    width: 90%;
+    padding: 5px 15px;
+ 
+}
+.main .footer .rating .data{
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    border-bottom: 2px solid rgb(61, 59, 59);
+    border-top: 2px solid rgb(61, 59, 59);
+}
